@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #23415c;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-nav .nav-link li a {
+    color: #d5d5d5;
+}
