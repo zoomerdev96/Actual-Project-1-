@@ -60,3 +60,25 @@ html, body {
     position: relative;
     background-size: cover;
 }
+
+footer {
+    width: 100%;
+    background-color: #23415c;
+    padding: 5% 5% 10% 5%;
+    color: #ffffff;
+}
+
+.fa { 
+    padding: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px;
+}
