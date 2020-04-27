@@ -22,3 +22,12 @@ html, body {
     color: #ffffff;
 }
 
+#home { 
+    background: url(img/mountains.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
