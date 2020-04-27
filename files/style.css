@@ -14,6 +14,11 @@ html, body {
     padding: 0 15px 5px;
 }
 
-.navbar-nav .nav-link li a {
+.navbar-nav li a {
     color: #d5d5d5;
 }
+
+.navbar-nav li a:hover , .navbar-nav li a.active  {
+    color: #ffffff;
+}
+
