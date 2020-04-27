@@ -41,5 +41,22 @@ html, body {
 .landing-text h1 {
     font-size: 500%;
     font-weight: 700;
-    
+
+}
+
+.padding {
+    padding: 80px 80px;
+}
+
+.padding img {
+    width: 100%;
+}
+
+#fixed { 
+    background: url(img/background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
 }
