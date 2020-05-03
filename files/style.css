@@ -69,11 +69,15 @@ footer {
     padding: 5% 5% 10% 5%;
     color: #ffffff;
 }
+.text {
+    text-align: center;
+}
 
 .fa { 
     padding: 15px;
     font-size: 25px;
     color: #ffffff;
+    
 }
 
 .fa:hover {
