@@ -54,6 +54,10 @@ html, body {
     width: 100%;
 }
 
+.lead {
+    padding-top: 10px;
+}
+
 #fixed { 
     background: url(img/karina-vorozheeva-Kol2ib6ehQE-unsplash.jpg) no-repeat center center fixed;
     display: table;
