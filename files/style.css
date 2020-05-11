@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #d5d5d5;
+    background-color: #ffdde5cc;
 }
 
 .navbar {
@@ -20,7 +20,7 @@ html, body {
 }
 
 .navbar-nav li a:hover , .navbar-nav li a.active  {
-    color: #ffffff;
+    color: #ffdde5cc;
 }
 
 #home { 
@@ -86,7 +86,7 @@ footer {
 }
 
 .fa:hover {
-    color: #d5d5d5;
+    color: #ffdde5cc;
     text-decoration: none;
 }
 
