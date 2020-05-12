@@ -25,14 +25,14 @@ html, body {
 }
 
 /* product listing styling */
-.container {
+.container-fluid {
     width: 100%;
     margin-top: 10%;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
 
-.container h2 {
+.container-fluid h2 {
     background: #0062cc;
     color: #ffffff;
     width: 200px; 
@@ -41,7 +41,7 @@ html, body {
     height: 40px;
 }
 
-.container h2::after {
+.container-fluid h2::after {
     content: '';
     border-top: 40px solid #0062cc;
     position: relative;
