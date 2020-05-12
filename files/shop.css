@@ -1,3 +1,6 @@
+/* navbar styling */
+
+/* product listing styling */
 .container {
     width: 100%;
     margin-top: 10%;
@@ -30,7 +33,7 @@ img {
     width: 100%;
 }
 
-.product-bottom .fa {
+.product-bottom .fas .far {
     color: #28a745;
     font-size: 10px;
 }
@@ -54,7 +57,7 @@ img {
     transition: .5s;
 }
 
-.overlay .fa {
+.overlay .fas .far {
     cursor: pointer; 
     background-color: #ffffff; 
     color: #000000;
