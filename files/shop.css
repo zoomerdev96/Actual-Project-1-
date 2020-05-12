@@ -30,7 +30,11 @@ html, body {
     margin-top: 5%;
     font-family: sans-serif;
     letter-spacing: 1px
-    
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .container-fluid h2 {
@@ -105,11 +109,6 @@ footer {
     background-color: #000000;
     padding: 5% 5% 10% 5%;
     color: #d5d5d5;
-}
-
-#indent {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .text {
