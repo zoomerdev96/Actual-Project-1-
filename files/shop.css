@@ -27,15 +27,16 @@ html, body {
 /* product listing styling */
 .container-fluid {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 1px
+    
 }
 
 .container-fluid h2 {
     background: #0062cc;
     color: #ffffff;
-    width: 200px; 
+    width: 175px; 
     font-size: 24px;
     padding: 5px;
     height: 40px;
@@ -58,7 +59,6 @@ img {
 }
 
 .product-bottom .fas .far {
-    color: #28a745;
     font-size: 10px;
 }
 
@@ -99,11 +99,17 @@ img {
 }
 
 /* footer styling */
+
 footer {
     width: 100%;
     background-color: #000000;
     padding: 5% 5% 10% 5%;
     color: #d5d5d5;
+}
+
+#indent {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .text {
