@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container h2 {
+    background: #0062cc;
+    color: #ffffff;
+    width: 200px; 
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+.container h2::after {
+    content: '';
+    border-top: 40px solid #0062cc;
+    position: relative;
+    left: 48px;
+    top: 34px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.product-bottom .fa {
+    color: #28a745;
+    font-size: 10px;
+}
+
+.product-bottom h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.overlay {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.product-top:hover .overlay {
+    opacity: 1;
+    margin-left: 5%;
+    transition: .5s;
+}
+
+.overlay .fa {
+    cursor: pointer; 
+    background-color: #ffffff; 
+    color: #000000;
+    height: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.overlay .btn-secondary {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
