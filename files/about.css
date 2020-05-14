@@ -36,6 +36,17 @@ html, body {
     padding-top: 10px;
 }
 
+/* fixed image styling */
+#fixed { 
+    background: url(img/karina-vorozheeva-Kol2ib6ehQE-unsplash.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+
 /* footer styling */
 footer {
     width: 100%;
