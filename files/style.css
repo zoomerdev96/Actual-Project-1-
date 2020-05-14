@@ -58,6 +58,10 @@ html, body {
 .lead {
     padding-top: 10px;
 }
+
+#getstarted {
+    margin-top: 10px;
+}
 /* blue image styling */
 #fixed { 
     background: url(img/karina-vorozheeva-Kol2ib6ehQE-unsplash.jpg) no-repeat center center fixed;
