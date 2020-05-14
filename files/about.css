@@ -38,7 +38,7 @@ html, body {
 
 /* fixed image styling */
 #fixed { 
-    background: url(img/karina-vorozheeva-Kol2ib6ehQE-unsplash.jpg) no-repeat center center fixed;
+    background: url(img/building.jpg) no-repeat center center fixed;
     display: table;
     height: 60%;
     width: 100%;
