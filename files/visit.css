@@ -46,7 +46,10 @@ html, body {
     background-size: cover;
 }
 
-
+.prices {
+    text-align: center;
+    padding: .25em;
+}
 /* footer styling */
 footer {
     width: 100%;
