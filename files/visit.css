@@ -38,7 +38,7 @@ html, body {
 
 /* fixed image styling */
 #fixed { 
-    background: url(img/building.jpg) no-repeat center center fixed;
+    background: url(img/group.jpg) no-repeat center center fixed;
     display: table;
     height: 70%;
     width: 100%;
