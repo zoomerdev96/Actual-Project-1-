@@ -26,6 +26,13 @@ html, body {
 
 /* product listing styling */
 
+hr {
+    border: .1px solid #bba6a6;
+    width: 30%;
+    text-align: center;
+    margin-top: 4%;
+    
+}
 .container-fluid {
     width: 100%;
     margin-top: 5%;
@@ -55,6 +62,9 @@ html, body {
     top: 34px;
 }
 
+.color {
+    background-color: #ffdde5cc !important;
+}
 .row {
     margin-top: 30px;
 }

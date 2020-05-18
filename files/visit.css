@@ -26,6 +26,7 @@ html, body {
 
 .padding {
     padding: 80px 80px;
+    background-color: #ffdde5cc;
 }
 
 .padding img {
@@ -35,6 +36,7 @@ html, body {
 .lead {
     padding-top: 10px;
 }
+
 
 /* fixed image styling */
 #fixed { 
@@ -48,24 +50,30 @@ html, body {
 
 .prices {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%;
     font-size: 125%;
 
 }
 .pricesHeader {
     text-align: center;
-    
 }
 
 .hours {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%;
     font-size: 125%;
 
 }
 .hoursHeader {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%; 
+}
+
+hr {
+    border: .1px solid #bba6a6;
+    width: 30%;
+    text-align: center;
+    margin-top: 4%;
     
 }
 
