@@ -48,9 +48,27 @@ html, body {
 
 .prices {
     text-align: center;
-   
+    padding-top: 5%;
+    font-size: 125%;
 
 }
+.pricesHeader {
+    text-align: center;
+    
+}
+
+.hours {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 125%;
+
+}
+.hoursHeader {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
 /* footer styling */
 footer {
     width: 100%;
