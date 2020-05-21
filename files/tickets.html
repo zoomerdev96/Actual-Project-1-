@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ca25dac614.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="visit.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark" role="navigation">
+        <a class="navbar-brand" href="index.html"> <img src="img/butterfly.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="visit.html">Plan Your Visit<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+<div class="header">
+    <h2>Group Reservation Form</h2>
+</div>
+
+<div class="container-fluid style">
+    <form action="https://formspree.io/xpzyqlpl" method="POST">
+        <div class="form-group">
+            <label for="FirstName">First Name</label>
+            <input type="text" class="form-control" name="FirstName" placeholder="John" required>
+          </div>
+          <div class="form-group">
+            <label for="LastName">Last Name</label>
+            <input type="text" class="form-control" name="LastName" placeholder="Doe" required>
+          </div>
+        <div class="form-group">
+          <label for="EmailAddress">Email Address</label>
+          <input type="email" class="form-control" placeholder="name@example.com" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="tel" class="form-control" name="PhoneNumber" placeholder="555-420-5879" required>
+          </div>
+        <div class="form-group">
+          <label for="GroupSize">Group Size</label>
+          <select class="form-control" type="select" name="select" required>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20+</option>
+          </select>
+        </div>
+       
+        <div class="form-group">
+          <label for="SpecialRequests">Special Requests/Comments</label>
+          <textarea class="form-control" name="SpecialRequests" rows="5" placeholder="Type here..."></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-dark" value="Send">
+        </div>
+      </form>
+</div>
+
+
+    <footer class="container-fluid" text-center id="reservation">
+        <div class="row">
+            <div class="col-lg-12 text">
+                <h3>Contact Us</h3>
+                <br>
+                <p class="address">281 Greenfield Road, South Deerfield, MA 01373</p>
+                <p class="phone">413-665-2805</p>
+                <br>
+                <h3>Connect</h3>
+                <a href="https://www.facebook.com/Magic-Wings-Butterfly-Conservatory-106827612675357/" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.google.com/" class="fa fa-google"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>   
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+    
+</body>
