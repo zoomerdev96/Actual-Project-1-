@@ -117,8 +117,29 @@ footer {
         padding-top: 5%;
         max-width: 100px;
     }
-}
 
+    .padding {
+        padding: 40px 80px 40px;
+        background-color: #ffdde5cc;
+    }
+
+    .top {
+        margin-top: 10%;
+    }
+
+    .bottom {
+        margin-bottom: 10%;
+    }
+
+    .middle {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .gallery {
+        margin-top: 10%;
+    }
+}
 
 /* Reservation Form Styling */
 label {
